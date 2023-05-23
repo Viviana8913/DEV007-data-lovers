@@ -1,0 +1,93 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: #A06468;
+    font-size: medium;
+    margin: 0 auto;
+    
+}
+
+
+#banner {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    object-position: cover;
+    
+
+}
+h1 {
+    font-size: 80px;
+    font-style: italic;
+    display: inline-block;
+    color: #2C0005;
+}
+
+#portada {
+    
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+#contenedor-busqueda {
+    display: grid;
+    border: #2E4744 solid 4px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 4px;
+}
+img {
+    width: 250px;
+    height: 250px;
+    object-position: cover;
+}
+.afiche {
+    border: 4px solid #2E4744;
+    background-color: #D4B5A9;
+}
+button {
+    display: inline-block;
+    font-size: 30px;
+    background-color: #046684 solid;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    border: #D4B5A9 solid 3px;
+    width: 150px;
+    height: 75px;
+    text-emphasis-color: #046684;
+}
+footer {
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+
+#Fportada{
+    width: 1366px;
+    height: 768px;
+    left: 37px;
+    top: 639px;
+}
+
+h2{
+    font-family: 'Lucida Sans';
+    color: #382527;
+    border-color: 3px #0000;
+    text-shadow: #0000;
+}
+
+p {
+    
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.logo{
+    width: 630px;
+    height: 330px;
+        
+}
