@@ -27,7 +27,7 @@ export const ZAdata = () => {
 }
 
 export const filtroBuscar = (word, dataGhibli) => {
- return dataGhibli.films.filter((movie) => movie.title.includes(word));
+  return dataGhibli.films.filter((movie) => movie.title.includes(word));
 
 }
 

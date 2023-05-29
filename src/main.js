@@ -134,8 +134,8 @@ selectOrdenar.addEventListener('change', () => {
 })
 
 selectBuscar.addEventListener('keyup', (e) => {
- const buscarPeli = filtroBuscar(e.target.value,movies);
- buscarPeli.forEach((film) => {        
+  const buscarPeli = filtroBuscar(e.target.value, dataGhibli);
+  buscarPeli.forEach((film) => {        
     contenedorBusqueda.innerHTML +=`
             <div class = "afiche">
             <h2><center>${film.title}</h2>
