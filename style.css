@@ -1,0 +1,167 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: #A06468;
+    font-size: medium;
+    margin: 0 auto;
+    
+}
+
+
+#banner {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    object-position: cover;
+    margin-top: 10px;
+
+
+}
+h1 {
+    font-size: 80px;
+    font-style: italic;
+    display: inline-block;
+    color: #2C0005;
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+#portada {
+    
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+#contenedor-busqueda {
+    display: grid;
+    border: #2E4744 solid 4px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    row-gap: 4px;
+    border-radius: 30px;
+    
+}
+img {
+    width: 250px;
+    height: 250px;
+    object-position: cover;
+}
+.afiche {
+    border: 4px solid #60b5c2;
+    background-color: #D4B5A9;
+    border-radius: 30px;
+}
+button {
+    background: #eb94d0;
+    background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+    background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+    background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+    background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+    background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #9daef5;
+   -webkit-box-shadow: 6px 5px 24px #666666;
+   -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;
+    font-family:cursive;
+    color: #fafafa;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #2079b0;
+    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+    text-decoration: none;
+}
+
+footer {
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+
+#Fportada{
+    width: 1366px;
+    height: 768px;
+    left: 37px;
+    top: 639px;
+}
+
+h2{
+    font-family: cursive;
+    color: #382527;
+    border-color: 3px #0000;
+    text-shadow: #0000;
+}
+
+p {
+    
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.logo{
+    width: 630px;
+    height: 330px;
+        
+}
+
+.buscador{
+    border-radius: 30px;
+    height: 15px;
+    width: 300px;
+    padding: 20px;
+    background: linear-gradient(to bottom right, rgb(255, 99, 135), white);
+    border: none;
+    font-family: cursive;
+}
+.buscador:hover{
+    border: 3px solid rgb(240, 179, 219);    
+}
+
+.Direc{
+    border-radius: 30px;
+    height: 30px;
+    width: 140px;
+    border: 2px solid rgb(240, 179, 219);
+    color: #A06468;
+    font-family: cursive;
+}
+.Produc{
+    border-radius: 30px;
+    height: 30px;
+    width: 140px;
+    border: 2px solid rgb(240, 179, 219);
+    color: #A06468; 
+    font-family: cursive;   
+}
+.orden{
+    border-radius: 30px;
+    height: 30px;
+    width: 140px;
+    border: 2px solid rgb(240, 179, 219);
+    color: #A06468;
+    font-family: cursive;
+}
+
+.banner{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    object-position: cover;
+    margin-top: 10px;
+}
+

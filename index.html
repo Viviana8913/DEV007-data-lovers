@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ghiblioteca</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="./images/logo.png">
+      <br>
+      <img id="banner" src="images/PELUSA.jpg"><h1>Bienvenid@s a Ghiblioteca</h1><img class="banner" src="images/pelusa.jpg">
+    </header>
+      <div class="portada">
+         <h2>“Dime, ¿ cuáles son los limites ? Los limites son tres: el cielo, la imaginación y tu misma”</h2>
+         <img id="Fportada" src="images/todos_gibli.jpg">
+         <p>Studio Ghibli es un estudio de animación japonés, conocido por sus largometrajes animados como Mi vecino Totoro, El viaje de Chihiro o El castillo ambulante, entre otros grandes éxitos.
+          Las animaciones tienen gran acogida a nivel mundial y algunas han recibido varias nominaciones y premios. De todo este fandom hay un grupo que desea poder interactuar y ver la información de las animaciones y sus personajes.</p>
+      </div>
+        <br><br>
+        <main>
+          <article>
+            <button id="mostrar-peliculas">Peliculas</button>
+            <button id="mostrar-personajes">Personajes</button>
+            <button id="mostrar-locaciones">Locaciones</button>
+            <button id="mostrar-vehiculos">Vehiculos</button>
+          </article><br><br>
+            <select name="directores" class="Direc" id="filtroDirectores"> 
+              <option disabled selected>Filtrar por director</option>
+              <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+              <option value="Isao Takahata">Isao Takahata</option>
+              <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+              <option value="Hiroyuki Morita">Hiroyuki Morita</option>
+              <option value="Gorō Miyazaki">Gorō Miyazaki</option>
+              <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
+          </select>
+          <select name="productores" class="Produc" id="filtroProductores">
+            <option disabled selected>Filtrar por productor</option>
+            <option value="Isao Takahata">Isao Takahata</option>
+            <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+            <option value="Toru Hara">Toru Hara</option>
+            <option value="Toshio Suzuki">Toshio Suzuki</option>
+            <option value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
+          </select> 
+          <select name="orden" id="orden" class="orden">
+            <option hidden selected>Ordenar</option>
+            <option value="az">A-Z</option>
+            <option value="za">Z-A</option>
+          </select>
+          <br><br>
+          <input type="buscador" placeholder="Buscar" class="buscador">
+           <br><br>
+          <div id="contenedor-busqueda"></div>         
+        </main>
+        <footer>
+      <p class="pie">Ghiblioteca© 2023 Viviana Gómez. Todos los derechos reservados</p>
+    </footer>
+    <div id="root"></div>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
