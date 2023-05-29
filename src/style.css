@@ -16,7 +16,7 @@ body {
     height: 150px;
     object-position: cover;
     margin-top: 10px;
-    
+
 
 }
 h1 {
@@ -154,3 +154,14 @@ p {
     color: #A06468;
     font-family: cursive;
 }
+
+.banner{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    object-position: cover;
+    margin-top: 10px;
+}
+
